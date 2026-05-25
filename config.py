@@ -123,7 +123,7 @@ FAQ_RESPONSES = {
         "/vip — Infos sur l'accès VIP\n"
         "/regles — Règles du groupe\n"
         "/contact — Contact pour le vip\n"
-        "/preuve — Preuve en dm\n"
+        "/teaser — Voir l'aperçu VIP\n"
         "/aide — Cette aide"
     ),
 }
