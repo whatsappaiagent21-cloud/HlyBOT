@@ -347,7 +347,7 @@ def main():
     for cmd in FAQ_RESPONSES.keys():
         app.add_handler(CommandHandler(cmd, on_command))
 
-    app.run_polling(allowed_updates=["message", "chat_member"])
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
 if __name__ == "__main__":
